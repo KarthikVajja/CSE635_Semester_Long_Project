@@ -1,5 +1,5 @@
 # Hallucination Detection and Prevention
-This repository holds the code for our implementation for a classifier to detect hallucinations in conversational models and an encoder-decoder implementation using contrastive loss to train the model.
+This repository holds the code for our implementation for a classifier to detect hallucinations in conversational models and an encoder-decoder implementation using contrastive loss to train the model.\\
 
 Please refer the pdf in the below link to understand more about our implementation.
 
