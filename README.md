@@ -30,18 +30,18 @@ The model can be fine-tuned by modifying these parameters.\
 The encoder decoder weights for our baseline is saved to the files encoder and decoder respectively.
 
 
-The code for our implementation resides in contrastiveLossEncoderDecoder folder.
-Our implementation involves using contrastive loss to train the model.
-For this we have created negative responses by modifying named entities with other entities from their respective set of entities. The no of negative responses is set to be a hyperparameter.
+The code for our implementation resides in contrastiveLossEncoderDecoder folder.\
+Our implementation involves using contrastive loss to train the model.\
+For this we have created negative responses by modifying named entities with other entities from their respective set of entities. The no of negative responses is set to be a hyperparameter.\
 You can create a model by executing contrastiveLoss.ipynb file. This creates an encoder and decoder for generating next token in the sequence till max length or EOS is reached.
 
-We have trained the model on the below hyperparameters and have saved the weights of this model in files encoder and decoder.
-NUM_NEGATIVE_RES = 2
-SEQ_LENGTH = 100
-BATCH_SIZE = 60
-HIDDEN_SIZE = 128
-epochs = 15
-The model can be fine-tuned by modifying these parameters.
+We have trained the model on the below hyperparameters and have saved the weights of this model in files encoder and decoder.\
+NUM_NEGATIVE_RES = 2\
+SEQ_LENGTH = 100\
+BATCH_SIZE = 60\
+HIDDEN_SIZE = 128\
+epochs = 15\
+The model can be fine-tuned by modifying these parameters.\
 The encoder decoder weights for our baseline is saved to the files contrastive_encoder and contrastive_decoder respectively.
 
 
