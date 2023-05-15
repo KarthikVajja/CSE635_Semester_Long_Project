@@ -1,5 +1,5 @@
 # Hallucination Detection and Prevention
-This repository holds the code for our implementation for a classifier to detect hallucinations in conversational models and an encoder-decoder implementation using contrastive loss to train the model.\
+This repository holds the code for our implementation for a classifier to detect hallucinations in conversational models and an encoder-decoder implementation using contrastive loss to train the model.
 
 Please refer the pdf in the below link to understand more about our implementation.
 
@@ -8,25 +8,25 @@ Please refer the pdf in the below link to understand more about our implementati
 
 The code for baseline model resides in baselineVRM&BEGIN folder. \
 Our baseline creates individual models for classifying the responses to their respective labels in BEGIN and VRM benchmarks.\
-Running the code from hallucinationDetection.ipynb file generates the models and classification reports.\
+Running the code from hallucinationDetection.ipynb file generates the models and classification reports.
 
-The code for our implementation resides in multi-labelClassificaion folder.
-This implementation creates 2 models each for BEGIN and VRM benchmarks respectively.
+The code for our implementation resides in multi-labelClassificaion folder.\
+This implementation creates 2 models each for BEGIN and VRM benchmarks respectively.\
 Running the code from hallucinationDetection.ipynb file generates the models and classification reports.
 
 
 # Conversational model
 
-The code for baseline implementation resides in baselineEncoderDecoder folder.
-Our baseline model creates a model that is trained by using cross-entropy loss.
+The code for baseline implementation resides in baselineEncoderDecoder folder.\
+Our baseline model creates a model that is trained by using cross-entropy loss.\
 By executing the encoder-decoder.ipynb file results in an encoder and decoder for generating next token in the sequence till max length or EOS is reached.
 
-We have trained the model on the below hyperparameters and have saved the weights of this model in files encoder and decoder.
-seq_length = 200
-batch_size = 60
-hidden_size = 128
-epochs = 15
-The model can be fine-tuned by modifying these parameters.
+We have trained the model on the below hyperparameters and have saved the weights of this model in files encoder and decoder.\
+seq_length = 200\
+batch_size = 60\
+hidden_size = 128\
+epochs = 15\
+The model can be fine-tuned by modifying these parameters.\
 The encoder decoder weights for our baseline is saved to the files encoder and decoder respectively.
 
 
