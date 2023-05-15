@@ -1,14 +1,14 @@
 # Hallucination Detection and Prevention
-This repository holds the code for our implementation for a classifier to detect hallucinations in conversational models and an encoder-decoder implementation using contrastive loss to train the model.\\
+This repository holds the code for our implementation for a classifier to detect hallucinations in conversational models and an encoder-decoder implementation using contrastive loss to train the model.\
 
 Please refer the pdf in the below link to understand more about our implementation.
 
 
 # Hallucination critic
 
-The code for baseline model resides in baselineVRM&BEGIN folder. 
-Our baseline creates individual models for classifying the responses to their respective labels in BEGIN and VRM benchmarks.
-Running the code from hallucinationDetection.ipynb file generates the models and classification reports.
+The code for baseline model resides in baselineVRM&BEGIN folder. \
+Our baseline creates individual models for classifying the responses to their respective labels in BEGIN and VRM benchmarks.\
+Running the code from hallucinationDetection.ipynb file generates the models and classification reports.\
 
 The code for our implementation resides in multi-labelClassificaion folder.
 This implementation creates 2 models each for BEGIN and VRM benchmarks respectively.
